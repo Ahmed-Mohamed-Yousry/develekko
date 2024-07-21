@@ -7,9 +7,7 @@ var closeico = document.querySelector('.closeico')
 
 
 
-if($('.sectionscontent').innerWidth(`${sectionscontent}`)){
-  $('#sidecontroler').css('backgroundColor', 'rgba(255, 255, 255, 0.918)')
-}
+
 
 $('.openico').click(function(){
     $('.sidebar').animate({left:'0px'},900 )

@@ -5,7 +5,7 @@ body{
 .sidebar{
     position: fixed;
     top: 0;
-    left: -378.562px;
+    left: -355.562px;
     bottom: 0;
     z-index: 99999;
   }
@@ -23,7 +23,9 @@ cursor: pointer;
   .sidebar .closeico{
     cursor: pointer;
   }
-  
+  .sidebar ul{
+    list-style: none;
+  }
 a{
   text-decoration: none;
   color: #fff;
@@ -32,10 +34,10 @@ a{
   display: none;
 }
 .sidecontrol{
-    color: #0d0d0d;
-    top: 0;
+    
+    top: 50%;
     /* background-color: rgba(255, 255, 255, 0.062) ; */
-    bottom: 0; 
+    /* bottom: 0;  */
 }
 #PORTFOLIO .information-film{
     overflow: hidden;
